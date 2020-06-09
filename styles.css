@@ -1,3 +1,39 @@
 body{
     color: coral;
+    display: flex;
+    justify-content: center;
+}
+
+.fullCalc{
+    height: 600px;
+    width: 300px;
+    background-color: grey;
+    border-radius: 40px;
+    border: 5px solid rgb(87, 87, 87);
+    padding: 20px;
+}
+
+.screen{
+    width: 80%;
+    height: 75px;
+    margin: auto;
+    background-color: rgb(198, 198, 198);
+    border-radius: 40px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.screenText{
+    width: 100%;
+    text-align: right;
+}
+
+.numberButton{
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
 }
